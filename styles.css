@@ -1,7 +1,3 @@
-@font-face {
-    font-family: 'Square Font';
-    src: url(res/font.otf);
-}
 :root { 
     --infoStay: 10s;
 } 
