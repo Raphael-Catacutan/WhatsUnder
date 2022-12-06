@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Single or Double? </title>
+	    <link rel="icon" href="img/normal-0.0.png" type="image/x-icon">
+	    <meta name="author" content="Raphael Catacutan">
+
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body onload="new Main()">
+        <div id="main">
+            <div id="title">
+                <h2>21st Century Literature</h2>
+                <h1>What's under?</h1>
+                <h2>by Raphael Catacutan</h2>
+                <button id="play">PLAY</button>
+            </div>
+        </div>
+
+        <div id="game">
+            <div id="info">
+                <div id="info-title"></div>
+                <hr>
+                <div id="info-content"></div>
+            </div>
+            <div id="grid"></div>
+            <div id="table">
+                <img id="table-icon" src="img/table.png" alt="table">
+                <table id="table-info">
+                    <tr id="c0">
+                        <th>Difference (FF)</th>
+                        <th>Similarities</th>
+                        <th>Difference (GF)</th>
+                    </tr>
+                    <tr id="c1">
+                        <td id="1-0"><u>Written and published</u> by Nicky Johnson on 2019</td>
+                        <td id="1-1">Both stories are short</td>
+                        <td id="1-2"><u>Written and published</u> by Demecia Dean on 2014</td>
+                    </tr>
+                    <tr id="c2">
+                        <td id="2-0">It <u>contains</u> text only</td>
+                        <td id="2-1">Both of them have plot (beginnning, middle, ending) scenes</td>
+                        <td id="2-2">It <u>contains</u> graphics, illustrations, and text</td>
+                    </tr>
+                    <tr id="c3">
+                        <td id="3-0">The <u>flow of the story</u> gives reader a chance to interpret the ending</td>
+                        <td id="3-1">Both of them have interesting characters</td>
+                        <td id="3-2">The <u>flow of the story</u> gives reader chance to fill its gaps</td>
+                    </tr>
+                    <tr id="c4">
+                        <td id="4-0">The <u>point of view</u> is third person</td>
+                        <td id="4-1">Both piece are realistic and can happen in real life</td>
+                        <td id="4-2">The <u>point of view</u> is first person</td>
+                    </tr>
+                    <tr id="c5">
+                        <td id="5-0">Its <u>structure</u> is in paragraph form</td>
+                        <td id="5-1">The endings are both unexpected by the main character</td>
+                        <td id="5-2">Its <u>structure</u> is in Panel/Comic Form</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+        <div id="blocker"></div>
+        <div id="bg-colorMain"></div>
+        <div id="bg-colorGame"></div>
+    </body>
+</html>
