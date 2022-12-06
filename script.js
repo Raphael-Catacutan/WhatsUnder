@@ -1,4 +1,4 @@
-const READING_SPEED = 5
+const READING_SPEED = 2
 class Main {
     constructor() {
         console.log("Game INITIATED")
